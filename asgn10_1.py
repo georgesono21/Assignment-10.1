@@ -191,7 +191,7 @@ class DragStrip:
   def race_cars(self,car_1,car_2):
     #if car 1 wins
     if (self.run_quarter_mile(car_1)) < (self.run_quarter_mile(car_2)):
-      return f"---RESULTS---\nWINNER: {car_1.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_1)} seconds\n\t0-60: {self.run_0_60(car_1)} seconds\nLOSER: {car_2.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_2)} seconds\n\t0-60: {self.run_0_60(car_2)} seconds"
+      return f"---RACE RESULTS---\nWINNER: {car_1.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_1)} seconds\n\t0-60: {self.run_0_60(car_1)} seconds\nLOSER: {car_2.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_2)} seconds\n\t0-60: {self.run_0_60(car_2)} seconds"
     #if car 2 wins
     else:
-      return f"---RESULTS---\nWINNER: {car_2.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_2)} seconds\n\t0-60: {self.run_0_60(car_2)} seconds\nLOSER: {car_1.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_1)} seconds\n\t0-60: {self.run_0_60(car_1)} seconds"
+      return f"---RACE RESULTS---\nWINNER: {car_2.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_2)} seconds\n\t0-60: {self.run_0_60(car_2)} seconds\nLOSER: {car_1.get_owner()}\n\t1/4 mile: {self.run_quarter_mile(car_1)} seconds\n\t0-60: {self.run_0_60(car_1)} seconds"
