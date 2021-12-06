@@ -30,6 +30,13 @@ class Car:
     return self.__owner
   def get_manufacturer(self):
     return self.__manufacturer
+  def set_car_name(self,carname):
+  #Set methods
+    self.__car_name = carname
+    print("The car name has been updated")
+  def set__owner(self,owner):
+    self.__owner = owner
+    print("The owner has been updated")
   #Str magic method
   def __str__(self):
     return f"{self.__car_name} is owned by {self.__owner}. {self.__car_name} is manufactured by {self.__manufacturer} and its model is the {self.__model}."
