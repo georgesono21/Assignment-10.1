@@ -17,7 +17,7 @@ def main():
   dragstrip = DragStrip()
   #lets make the antagonist!
   antagonist = "Evil Dom Torreto"
-  antagonist_car = CombustionEngineCar("Hellcat", "Challenger", antagonist, "Dodge", cylinders = 8, engine_layout = "v", octane_rating = 90, air_intake = "super-charger") #creating the CombustionEngineCar instance
+  antagonist_car = CombustionEngineCar("Hellcat", "Challenger", antagonist, "Dodge", cylinders = 8, engine_layout = "v", octane_rating = 90) #creating the CombustionEngineCar instance
 
   #brian is going to go on first race (he will most-likely lose for story purposes)
   print(f"{protagonist}'s FIRST RACE!!\n")
